@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_action_home"
+        />
+    <item
+        android:id="@+id/addRestaurant"
+        android:title="Add Restaurant"
+        android:icon="@drawable/ic_action_add"
+        />
+    <item
+        android:id="@+id/aboutUs"
+        android:title="About Us"
+        android:icon="@drawable/ic_action_aboutus"
+        />
+    <item
+        android:id="@+id/splashScreen"
+        android:title="Splash Screen"
+        android:icon="@drawable/ic_action_splashscreen"
+        />
+</menu>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRestaurant">
+
+    <TextView
+        android:id="@+id/lbl_add"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:text="@string/add_restaurant"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:text="Name: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:text="Address: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        android:text="Phone number: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="180dp"
+        android:text="Hours: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/hourInput"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp" />
+
+    <TextView
+        android:layout_below="@id/lbl_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="240dp"
+        android:text="My experience: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/experienceInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="240dp" />
+    <TextView
+        android:layout_below="@id/lbl_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:text="Tag: "
+        android:textSize="20sp" />
+    
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tagInput"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_add"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="150dp"
+        android:text="SAVE"/>
+
+</RelativeLayout>

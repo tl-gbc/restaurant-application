@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project_Group6</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us">About Us</string>
+    <string name="trang_le">My Thuy Trang Le - 101136430</string>
+    <string name="chau_bui">Chau Bui - 10102126</string>
+    <string name="kevin_teran">Kevin Teran - 101119125</string>
+    <string name="restaurant_list">Restaurant List</string>
+    <string name="add_restaurant">Add Restaurant</string>
+</resources>
